@@ -1,2 +1,2 @@
-# ReactJS Socket.io Chat Application
+# ReactJS Nodejs Socket IO ConvoSync Application
 
