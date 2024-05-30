@@ -125,7 +125,7 @@ var ChangeNameForm = React.createClass({
 
 var ChatApp = React.createClass({
 
-	getInitialState() {
+	getInitialState(){
 		return {users: [], messages:[], text: ''};
 	},
 
