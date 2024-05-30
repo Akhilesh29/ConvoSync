@@ -63,7 +63,7 @@ module.exports = function (socket) {
     name: name
   });
 
-  // broadcast a user's message to other users
+  
   socket.on('send:message', function (data) {
     socket.broadcast.emit('send:message', {
       user: name,
